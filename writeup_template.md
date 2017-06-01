@@ -1,16 +1,21 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
+## Project one of Udacity CarND Program
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+### Alireza Norouzzadeh
 
 ---
 
 **Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+* Preprocess the input image.
+* Find Canny edges.
+* Apply a region-of-interest selection.
+* Find Hough lines.
+* Separate lines into left and right segments.
+* Performa RANSAC estimation on each segment to find left and right lane lines.
+* Draw both left and right lane lines on the input image.
 
 
 [//]: # (Image References)
