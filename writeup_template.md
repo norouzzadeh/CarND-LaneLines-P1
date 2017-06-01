@@ -20,13 +20,17 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images/solidWhiteCurve.jpg "Test image"
 
 ---
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline:
+
+The pipeline developed here, consists of 7 steps. At first, some preprocessing are applied to the input image. The image is converted to the grayscale
+
+and then a Gaussian blur filter with kernel size = 5 is applied to the grayscale image.
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
